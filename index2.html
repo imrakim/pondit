@@ -7,48 +7,55 @@
 </head>
 <body>
     <h1>HTML Form</h1>
-<form action="#" >
+<div>
+	<form>
 	<label for="firstname">Frist Name:</label>
-	<input type="text" id="name" name="firstname" required="required">
+	<input type="text" id="firstname" name="firstname" required="required">
     <label for="lastname">Last Name:</label>
 	<input type="text" id="lastname" name="lastname" required="required">
 	<label for="number">Number:</label>
-	<input type="number" id="number" name="number" required="required"><br><br>
+	<input type="number" id="number" name="number" required="required">
 	<label for="email">Email:</label>
-	<input type="email" id="email" name="email" required="required"><br><br>	
+	<input type="email" id="email" name="email" required="required">	
     <label for="password">Password:</label>
-	<input type="password" id="password" name="password" required="required" ><br><br>
+	<input type="password" id="password" name="password" required="required">
+	</form>
+</div>
+    <form>
 	<div>
 		<label for="gender">Gender:</label>
-        <label for="male">Male</label>
+		<input type="radio" id="gender" name="gender" required="required">
+		<label for="male">Male</label>
 		<input type="radio" id="male" name="gender" required="required">
-        <label for="female">Female</label>
-		<input type="radio" id="female" name="gender" required="required">
-	</div>
-	<div>
-		<b>Select your device:</b><br>
-        <label for="Macbook">Macbook</label>
-		<input type="checkbox" id="macbook" name="checkbox">
-        <label for="iPhone">iPhone</label>
-		<input type="checkbox" id="iPhone" name="checkbox" >
-        <label for="iPad">iPad</label>
-		<input type="checkbox" id="iPad" name="checkbox">
-	</div>
-	
-	<div>
-		<label for="finde">How did you hear about us?</label>
-		<select name="finde" >
-			<option >Social Media</option>
-			<option >Search Engine</option>
-			<option >Friend</option>
-			<option >Other</option>
-		</select><br>
-	</div>
-	<div>
-	Sign me up for News Letter
-		<input type="checkbox" >
-	</div>
+		<label for="female">Female</label>
+		
+</div>
+<div>
+	<b>Select your device:</b><br>
+	<label for="macbook">Macbook</label>
+	<input type="checkbox" id="macbook" name="macbook">
+	<label for="iPhone">iPhone</label>
+	<input type="checkbox" id="iPhone" name="iPhone" >
+	<label for="iPad">iPad</label>
+	<input type="checkbox" id="iPad" name="iPad">
+</div>
+<div>
+	<label for="finde">How did you hear about us?</label>
+	<input type="text" id="finde" name="finde">
+	<select name="finde">
+		<option>Social Media</option>
+		<option>Search Engine</option>
+		<option>Friend</option>
+		<option>Other</option>
+	</select>
+</div>
+<div>
+<b>Sign me up for News Letter</b>
+	<input type="checkbox" name="newsletter" >
+</div>
+<div>
 	<input type="submit" value="Sign Up">
+</div>
 </form>
 </body>
 </html>
