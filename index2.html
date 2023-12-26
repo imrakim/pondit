@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pondit Projects</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 </head>
 <body>
-    <h1>HTML Form</h1>
-<div>
-	<form>
-	<label for="firstname">Frist Name:</label>
-	<input type="text" id="firstname" name="firstname" required="required">
-    <label for="lastname">Last Name:</label>
-	<input type="text" id="lastname" name="lastname" required="required">
-	<label for="number">Number:</label>
-	<input type="number" id="number" name="number" required="required">
-	<label for="email">Email:</label>
-	<input type="email" id="email" name="email" required="required">	
-    <label for="password">Password:</label>
-	<input type="password" id="password" name="password" required="required">
+	<h1>HTML Form</h1>
+	<form action="#" >
+		<label for="firstname">First Name:</label>
+		<input type="text" id="firstname" name="first_name" placeholder="Enter Your First Name" required="required">
+	    <label for="lastname">Last Name:</label>
+		<input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name" required="required">
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" placeholder="Enter Your Age" required="required"><br>
+		<labeL for="email">Email:</labeL>
+		<input type="email" id="email" name="email" required="required" >
+		<label for="password">Password</label>	
+		<input type="password" id="password" name="password" required="required">
+		<label for="confirmpassword">Confirm Password</label>
+		<input type="password" id="confirmpassword" name="confirmpassword" required="required">
+		<div>
+			<label>Gender:</label>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="gender">
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender">
+			<label for="other">Other</label>
+			<input type="radio" id="other" name="gender">
+		</div>
+		<div>
+			<span>Select your device:</span><br>
+			<label for="macbook">Macbook</label>
+			<input type="checkbox" id="macbook" name="macbook">
+			<label for="iPhone">iPhone</label>
+			<input type="checkbox" id="iPhone" name="iPhone">
+			<label for="iPad">iPad</label>
+			<input type="checkbox" id="iPad" name="iPad">
+		</div>
+		<div>
+			<label for="finde">How did you hear about us?</label>
+			<select id="finde" name="finde" >
+				<option >Social Media</option>
+				<option >Search Engine</option>
+				<option >Friend</option>
+				<option >Other</option>
+			</select><br>
+		</div>
+		<div>
+		Sign me up for News Letter
+			<input type="checkbox" >
+		</div>
+		<button>Sign Up</button>
 	</form>
-</div>
-    <form>
-	<div>
-		<label for="gender">Gender:</label>
-		<input type="radio" id="gender" name="gender" required="required">
-		<label for="male">Male</label>
-		<input type="radio" id="male" name="gender" required="required">
-		<label for="female">Female</label>
-		
-</div>
-<div>
-	<b>Select your device:</b><br>
-	<label for="macbook">Macbook</label>
-	<input type="checkbox" id="macbook" name="macbook">
-	<label for="iPhone">iPhone</label>
-	<input type="checkbox" id="iPhone" name="iPhone" >
-	<label for="iPad">iPad</label>
-	<input type="checkbox" id="iPad" name="iPad">
-</div>
-<div>
-	<label for="finde">How did you hear about us?</label>
-	<input type="text" id="finde" name="finde">
-	<select name="finde">
-		<option>Social Media</option>
-		<option>Search Engine</option>
-		<option>Friend</option>
-		<option>Other</option>
-	</select>
-</div>
-<div>
-<b>Sign me up for News Letter</b>
-	<input type="checkbox" name="newsletter" >
-</div>
-<div>
-	<input type="submit" value="Sign Up">
-</div>
-</form>
 </body>
 </html>
